@@ -28,7 +28,7 @@ $(function () {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "http://localhost:3000/mail",
+                url: "http://mail-master.herokuapp.com/mail",
                 method: "POST",
                 crossDomain: true,
                 dataType: 'json',
@@ -47,7 +47,7 @@ $(function () {
                         .append('</div>');
 
                     //clear all fields
-                    // $('#contactForm').trigger("reset");
+                    $('#contactForm').trigger("reset");
                 },
                 error: function (xhr, status, err) {
                     // Fail message
@@ -57,7 +57,7 @@ $(function () {
                     $('#success > .alert-danger').append("<strong>Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!");
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
-                    // $('#contactForm').trigger("reset");
+                    $('#contactForm').trigger("reset");
                 }
 
             })
