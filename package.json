@@ -1,0 +1,40 @@
+{
+  "name": "ernestomancebo.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dist": "npm run build:mst && npm run build:css",
+    "build:js": "babel js --out-dir dist/js",
+    "build:mst": "mustache ./templates/data.json templates/index.mustache > ./dist/index.html",
+    "build:css": "npm run build:less && npm run build:postcss && npm run build:fa && npm run build:img",
+    "build:less": "lessc ./less/index.less ./dist/css/styles.css",
+    "build:postcss": "postcss ./dist/css/styles.css -o ./dist/css/postcss.css -m",
+    "build:fa": "cp -R ./font-awesome/ ./dist/font-awesome/",
+    "build:img": "cp -R ./img/ ./dist/img/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ernestomancebo/ernestomancebo.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ernestomancebo/ernestomancebo.github.io/issues"
+  },
+  "homepage": "https://github.com/ernestomancebo/ernestomancebo.github.io#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.1.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "cssnano": "^4.0.5",
+    "less": "^3.8.1",
+    "lost": "^8.3.0",
+    "mustache": "^2.3.1",
+    "postcss-cli": "^6.0.0",
+    "rucksack-css": "^1.0.2"
+  }
+}

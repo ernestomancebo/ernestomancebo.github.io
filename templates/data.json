@@ -1,0 +1,216 @@
+{
+  "title": "Ernesto Mancebo - Software Engineer",
+  "meta": {
+    "author": "contact@ernesmancebo.me",
+    "description": "This is the personal page of Ernesto Mancebo, sofware engineer"
+  },
+  "navBrand": "Ernesto Mancebo",
+  "navBarToggling": [{
+      "id": "portfolio",
+      "text": "Portfolio"
+    },
+    {
+      "id": "about",
+      "text": "Working Experience"
+    },
+    {
+      "id": "skills",
+      "text": "Skills"
+    },
+    {
+      "id": "contact",
+      "text": "Contact"
+    }
+  ],
+  "profileIntro": {
+    "name": "Ernesto Mancebo",
+    "description": "Software Engineer who loves solving complex problems",
+    "img": "img/300-370.ernesto.jpeg"
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "items": {
+      "webDevelopment": [{
+          "name": "Cambio Peso Dominicano",
+          "modalId": "cambioDominicanoModal",
+          "display": "img/portfolio/projects/dolar.ernestomancebo-thumb.png"
+        },
+        {
+          "name": "Tavarez Mancebo Abogados consultores",
+          "modalId": "tavarezManceboModal",
+          "display": "img/portfolio/projects/tavarez mancebo-thumb.png"
+        }
+      ],
+      "mobile": [{
+          "modalId": "portfolioDOP",
+          "display": "img/portfolio/dop.png"
+        },
+        {
+          "modalId": "portfolioModal1",
+          "display": "img/portfolio/brick.png"
+        }
+      ]
+
+    }
+  },
+  "workingXp": [{
+      "company": "Banco Popular de Puerto Rico",
+      "dateFrom": "2018-03",
+      "dateTo": "present",
+      "role": "Sr. Software Engineer",
+      "brief": "Joined the Banco Popular de Puerto Rico (BPPR) online banking team as consultant from the UTreee IT company. I collaborate in the development and improvement of the commercial user's and bank's representatives platform.<br/><br/>Part of the projects I'm on involves CRUD transactions, batch jobs, data loading and the creation of generics templates for data presentation."
+    },
+    {
+      "company": "Verizon",
+      "dateFrom": "2015-04",
+      "dateTo": "2018-03",
+      "role": "Sr. Software Engineer",
+      "brief": "Formed part of the Verizon Enterprise Center as outsourcer from the company Newtech. Here I labored at the repairs team, which was responsible of develop and maintain the network services trouble reporting platform.<br/> <br/>As part of this team I commited tasks that involves: REST services creation, data integration with Apache Camel, cration of batch process, data loading, web interfaces creation (wether ExtJS or Angular 2+) and also application migrations from technologies such Delphi to Java and ExtJS to Angular 2+."
+    },
+    {
+      "company": "Claro Dominicana",
+      "dateFrom": "2013-03",
+      "dateTo": "2015-04",
+      "role": "Software Engineer",
+      "brief": "Enrolled the Network Provisioning Department for Claro Dominicana as outsourcer from the company Newtech. I performed projects in the Network Activation Layer which includes: development of interface libraries for the activator platform which links the CRM with the network elements or network services (i.e. voicemail), build web services and database objects (views and procedures) that exposes network activation details and the creation of batch report generators."
+    }
+  ],
+  "skills": [{
+      "name": "Programing Languages",
+      "skillSet": [
+        "<i class=\"fab fa-java\"><span>Java</span></i>",
+        "<i class=\"fab fa-js\"><span>JavaScript</span></i>",
+        "<i class=\"fas fa-rocket\"><span>Kotlin</span></i>",
+        "<i class=\"fab fa-microsoft\"><span>Typescript</span></i>"
+      ]
+    },
+    {
+      "name": "Databases",
+      "skillSet": [
+        "<i class=\"fas fa-database\"><span>SQL</span></i>",
+        "<i class=\"far fa-file-alt\"><span>MongoDB</span></i>",
+        "<i class=\"fas fa-memory\"><span>Redis</span></i>"
+      ]
+    },
+    {
+      "name": "Frontend Frameworks",
+      "skillSet": [
+        "<i class=\"fab fa-angular\"><span>Angular 2+</span></i>",
+        "<i class=\"fas fa-fish\"><span>RxJS</span></i>",
+        "<i class=\"fas fa-project-diagram\"><span>ExtJS</span></i>",
+        "<i class=\"fas fa-globe\"><span>jQuery</span></i>"
+      ]
+    },
+    {
+      "name": "Backend Frameworks",
+      "skillSet": [
+        "<i class=\"fas fa-leaf\"><span>Spring Framework</span></i>",
+        "<i class=\"fab fa-connectdevelop\"><span>Apache Camel</span></i>",
+        "<i class=\"fas fa-fire\"><span>Spark Java</span></i>",
+        "<i class=\"far fa-file-alt\"><span>Apache Velocity/JSP</span></i>",
+        "<i class=\"fas fa-vial\"><span>jUnit</span></i>",
+        "<i class=\"fab fa-node\"><span>Node.js</span></i>",
+        "<i class=\"fab fa-node-js\"><span>Express.js</span></i>",
+        "<i class=\"fas fa-vials\"><span>Jasmine</span></i>"
+      ]
+    },
+    {
+      "name": "Styling",
+      "skillSet": [
+        "<i class=\"fab fa-css3\"><span>CSS</span></i>",
+        "<i class=\"fab fa-sass\"><span>SASS</span></i>",
+        "<i class=\"fab fa-twitter\"><span>Twitter Bootstrap</span></i>",
+        "<i class=\"fas fa-paint-roller\"><span>PostCSS</span></i>"
+      ]
+    },
+    {
+      "name": "Automation",
+      "skillSet": [
+        "<i class=\"fab fa-linux\"><span>Bash Script</span></i>",
+        "<i class=\"fab fa-npm\"><span>NPM Scripts</span></i>",
+        "<i class=\"fas fa-cubes\"><span>Webpack</span></i>",
+        "<i class=\"far fa-clock\"><span>Crontab/Jobs</span></i>",
+        "<i class=\"fas fa-flag-checkered\"><span>One-Push Deployment</span></i>",
+        "<i class=\"fab fa-github-square\"><span>Git Hooks</span></i>"
+      ]
+    },
+    {
+      "name": "Administration",
+      "skillSet": [
+        "<i class=\"fas fa-server\"><span>App/Software Hosting</span></i>",
+        "<i class=\"fas fa-globe-americas\"><span>DNS</span></i>",
+        "<i class=\"fas fa-envelope-open\"><span>Custom Mail</span></i>"
+      ]
+    },
+    {
+      "name": "Tools",
+      "skillSet": [
+        "<i class=\"fab fa-digital-ocean\"><span>Digital Ocean</span></i>",
+        "<i class=\"fas fa-user-ninja\"><span>Heroku</span></i>",
+        "<i class=\"fas fa-bullseye\"><span>Mailgun</span></i>",
+        "<i class=\"fab fa-git\"><span>Git</span></i>",
+        "<i class=\"fas fa-train\"><span>Nginx</span></i>",
+        "<i class=\"fas fa-tasks\"><span>Jira</span></i>",
+        "<i class=\"fas fa-stethoscope\"><span>SonarQube</span></i>"
+      ]
+    },
+    {
+      "name": "Sotware Patterns/Architecture",
+      "skillSet": [
+        "<i class=\"fab fa-pagelines\"><span>Object Oriented Programming</span></i>",
+        "<i class=\"fas fa-code-branch\"><span>Functional Programming</span></i>",
+        "<i class=\"fas fa-dice-five\"><span>Microservices</span></i>",
+        "<i class=\"fas fa-exchange-alt\"><span>MVC</span></i>",
+        "<i class=\"fas fa-sitemap\"><span>Redux</span></i>"
+      ]
+    }
+  ],
+  "contact": [
+    "<a href=\"mailto:contact@ernestomancebo.me\" ><i class=\"fa fa-fw fa-envelope\">contact@ernestomancebo.me</i></a>",
+    "<a href=\"https://www.linkedin.com/in/ernesto-mancebo-7a50175b/\" target=\"_blank\"><i class=\"fab fa-linkedin-in\">https://www.linkedin.com/in/ernesto-mancebo-7a50175b/</i></a>",
+    "<a href=\"https://github.com/ernestomancebo\" target=\"_blank\"><i class=\"fab fa-github-alt\">https://github.com/ernestomancebo</i></a>",
+    "<a href=\"https://medium.com/@mancebo128\" target=\"_blank\"><i class=\"fab fa-medium-m\">https://medium.com/@mancebo128</i></a>"
+  ],
+
+  "projectsModals": [{
+      "projectId": "portfolioDOP",
+      "title": "Dominican Peso (DOP)",
+      "brief": "DOP is an Android application that brings you the exchange rate among the Domincan Peso with the Dollar and Euro.",
+      "date": "April 2014",
+      "link": "<a href=\"https://play.google.com/store/apps/details?id=com.flectosystems.dop\" target=\"_blank\">Google Play Store</a>",
+      "thumbnail": "img/portfolio/dop.png",
+      "marquee": [],
+      "services": ["App Development", "Upload at Google Play"]
+    },
+    {
+      "projectId": "portfolioModal1",
+      "title": "Working on Project",
+      "brief": "Actually I'm diving on an interesting project. I'm pretty sure that you must have something in mind which could be interesting too. You can contact me on the bellow section.",
+      "date": "",
+      "link": "",
+      "thumbnail": "img/portfolio/brick.png",
+      "marquee": [],
+      "services": ["Coccodrile conquering 🐊"]
+    },
+    {
+      "projectId": "tavarezManceboModal",
+      "title": "Tavarez Mancebo Abogados Consultores",
+      "brief": "This is a web page for the law firm Tavarez Mancebo, built and designed as the customer expected involving several visuals requirements in order to project the firm identity.",
+      "date": "March 2018",
+      "link": "<a href=\"https://tavarezmancebo.com\" target=\"_blank\">tavarezmancebo.com</a>",
+      "thumbnail": "img/portfolio/projects/tavarez mancebo-thumb.png",
+      "marquee": [],
+      "services": ["Web Page Design and Development", "Web Page Hosting", "Domain Name Registration", "Custom Mail set up", "Google Maps Registration"]
+    },
+    {
+      "projectId": "cambioDominicanoModal",
+      "title": "Cambio Peso Dominicano",
+      "brief": "Web App built from scratch with the pruporse to serve as a hub of currency exchange details from different financial entities.",
+      "date": "August 2018",
+      "link": "<a href=\"http://dolar.ernestomancebo.me\" target=\"_blank\">http://dolar.ernestomancebo.me</a>",
+      "thumbnail": "img/portfolio/projects/dolar.ernestomancebo-thumb.png",
+      "marquee": [],
+      "services": ["Web App Development", "Web Design", "Backend Development", "Web App Hosting", "Domain Name Registration"]
+    }
+  ]
+}
