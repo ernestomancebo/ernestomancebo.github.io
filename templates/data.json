@@ -54,13 +54,6 @@
     }
   },
   "workingXp": [{
-      "company": "Banco Popular de Puerto Rico",
-      "dateFrom": "2018-03",
-      "dateTo": "present",
-      "role": "Sr. Software Engineer",
-      "brief": "Joined the Banco Popular de Puerto Rico (BPPR) online banking team as consultant from the UTreee IT company. I collaborate in the development and improvement of the commercial user's and bank's representatives platform.<br/><br/>Part of the projects I'm on involves CRUD transactions, batch jobs, data loading and the creation of generics templates for data presentation."
-    },
-    {
       "company": "Verizon",
       "dateFrom": "2015-04",
       "dateTo": "2018-03",
