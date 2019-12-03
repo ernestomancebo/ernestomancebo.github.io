@@ -54,6 +54,13 @@
     }
   },
   "workingXp": [{
+      "company": "UTreee",
+      "dateFrom": "2018-03",
+      "dateTo": "2018-09",
+      "role": "Sr. Software Engineer",
+      "brief": "Joined this team as a consultant for an US Bank."
+    },
+    {
       "company": "Verizon",
       "dateFrom": "2015-04",
       "dateTo": "2018-03",
